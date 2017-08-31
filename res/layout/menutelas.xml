@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Menuapp" >
+
+    <Button
+        android:id="@+id/bLuzArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bLuzCozinha"
+        android:layout_alignBottom="@+id/bLuzCozinha"
+        android:layout_alignParentRight="true"
+        android:text="  Luz Area "
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bLuzSala"
+        android:layout_alignBottom="@+id/bLuzSala"
+        android:layout_alignLeft="@+id/bLuzArea"
+        android:layout_alignParentRight="true"
+        android:text="Portão"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bLuzQuarto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bLuzQuarto"
+        android:layout_alignBottom="@+id/bLuzQuarto"
+        android:layout_alignParentRight="true"
+        android:text="Luz Quarto2"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bLuzQuarto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/bLuzSala"
+        android:layout_below="@+id/bLuzSala"
+        android:layout_marginTop="72dp"
+        android:text="Luz Quarto"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bLuzSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/bLuzCozinha"
+        android:layout_below="@+id/bLuzCozinha"
+        android:layout_marginTop="57dp"
+        android:text="Luz Sala "
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bLuzCozinha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="Luz Cozinha"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/luz" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="61dp"
+        android:text="  Bem Vindo ao Menu App Casa  \n    Todos os direitos reservados"
+        android:textColor="#a8a8a8" />
+
+</RelativeLayout>
